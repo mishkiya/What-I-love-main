@@ -1,0 +1,68 @@
+/* Hero Section */
+.contact-hero {
+    background-image: url(../images/chamo.jpg);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+h2 {
+    color: #000;
+    transform: scale(1.5);
+}
+
+/* Form Styles */
+.contact-form {
+    color: rgb(43, 40, 40);
+    max-width: 600px;
+    margin: -110px auto 2rem;
+    background-color: rgb(88, 174, 189);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(131, 121, 121, 0.1);
+    position: relative;
+}
+
+/* Form Elements - Required */
+
+.contact-form {
+    max-width: 600px;
+    margin: -100px auto 2rem;
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    color: #3b3838;
+    font-size: larger;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #080808;
+    font-weight: bold;
+}
+
+ /*Fixed checkbox styling */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkbox-item input {
+    width: auto;
+    margin: 0;
+}
