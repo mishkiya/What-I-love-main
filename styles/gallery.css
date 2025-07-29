@@ -30,3 +30,26 @@
     justify-content: center;
     text-align: center;
 }
+/* Image Captions */
+.img-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(30, 86, 49, 0.8);
+    color: white;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .img-caption {
+    transform: translateY(0);
+}
+
+/* 5. Media Queries - Required */
+@media (max-width: 600px) {
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+}
