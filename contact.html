@@ -18,3 +18,68 @@
             <a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a>
         </nav>
     </header>
+
+    <main>
+        <section class="contact-hero">
+            <h2>Ready to Explore Arba Minch?</h2>
+        </section>
+
+        <section class="contact-form">
+            <h3>Tour Inquiry Form</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone"placeholder="Enter your phone number" required>   
+                </div>
+                
+                <div class="form-group">
+                  <label>Interests</label>
+                  <div class="checkbox-group">
+                  <div class="checkbox-item">
+                    <input type="checkbox" id="springs" name="interest" value="springs">
+                    <label for="springs">Forty Springs</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="crocodile" name="interest" value="crocodile">
+                    <label for="crocodile">Crocodile Ranch</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="nechsar" name="interest" value="nechsar">
+                    <label for="nechsar">Nechsar Park</label>
+                 </div>
+            </div>
+                
+                <div class="form-group">
+                    <label for="travelers">Number of Travelers</label>
+                    <input type="number" id="travelers" name="travelers" min="1" max="20" placeholder="Enter the nubmer of people visiting" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="travling-enjoyment">How much do u enjoy travling? (1-5)</label>
+                    <input type="range" id="travling-enjoyment" name="travling-enjoyment" min="1" max="5">
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="message">Special Requests</label>
+                    <textarea id="message" name="message" rows="3"placeholder="Enter your message" ></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Inquiry</button>
+            </form>
+        </section>
