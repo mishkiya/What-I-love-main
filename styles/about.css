@@ -38,7 +38,7 @@
     padding-left: 2rem;
 }
 
-.fact-card li::before { /* Pseudo-element - Required */
+.fact-card li::before { /* Pseudo-element  */
     content: "🐊";
     position: absolute;
     left: 0;
@@ -105,12 +105,12 @@
     margin: 0 0 1rem 2rem;
     width: 300px;
     border-radius: 8px;
-    border: 3px solid #a68a64; /* Crocodile brown */
+    border: 3px solid #a68a64; 
     transition: transform 0.3s ease;
 }
 
 .feature-img:hover {
-    transform: scale(1.05); /* Transform - Required */
+    transform: scale(1.05); /* Transform  */
 }
 
 /* Lists - Required */
@@ -125,7 +125,7 @@
     padding-left: 2rem;
 }
 
-.spring-facts li::before { /* Pseudo-element - Required */
+.spring-facts li::before { /* Pseudo-element*/
     content: "🌿";
     position: absolute;
     left: 0;
@@ -152,7 +152,7 @@
     font-weight: bold;
 }
 
-/* 8. Media Queries - Required */
+/* 8. Media Queries*/
 @media (max-width: 600px) {
     .feature-img {
         float: none;
@@ -160,4 +160,3 @@
         margin: 1rem 0;
     }
 }
-
