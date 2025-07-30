@@ -50,7 +50,7 @@
 }
 
 h1, h2, h3 {
-    font-family: 'Times New Roman', Times, sans-serif, serif; 
+    font-family: 'Montserrat', sans-serif, serif; 
     text-transform: uppercase; 
 }
 
@@ -83,7 +83,7 @@ h1 {
 
 .card {
     background: linear-gradient(to right, white, burlywood);
-    font-family: 'Times New Roman', Times, sans-serif, serif;
+    font-family: 'Montserrat', sans-serif, serif;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
